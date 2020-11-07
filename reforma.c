@@ -20,13 +20,13 @@ int main() {
 				break;
 		}
 		if (soma == N) {
-			printf("SIM\n");
+			printf("SIM");
 			break;
 		}
 	}
 	
 	if (i==Q)
-		printf("NAO\n");
+		printf("NAO");
 	
 	return 0;
 }
