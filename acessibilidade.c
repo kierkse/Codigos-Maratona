@@ -4,7 +4,11 @@ int main() {
 	double H, C, L;
 	double i;
 	
-	do{
+	scanf("%lf",&H);
+	scanf("%lf",&C);
+	scanf("%lf",&L);
+	
+	while (!(H==0.0 && C==0.0 && L==0.0)) {
 		scanf("%lf",&H);
 		scanf("%lf",&C);
 		scanf("%lf",&L);
@@ -13,7 +17,7 @@ int main() {
 			printf("PROJETO SIMPLES\n");
 		else
 			printf("PROJETO ESPECIAL\n");
-	} while (!(H==0.0 && C==0.0 && L==0.0));
+	}
 	
 	return 0;
 }
