@@ -9,8 +9,8 @@ int main() {
 	int i, j, aux;
 	int mod1 = 0, mod2 = 0, preenc = 0, mo = 0, tammoda = 0;
 	
-	while (scanf("entradas")!=EOF) {
-		scanf("%d",&N);
+	while (scanf("%s",%buffer)!=EOF) {
+		if (buffer == EOF) { break; }
 		N = (int)buffer;
 		for (i=N;i<N;i++){
 			scanf("%d",&alunos[i]);
