@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-	float H, C, L;
-	float i;
+	double H, C, L;
+	double i;
 	
 	do{
-		scanf("%f",&H);
-		scanf("%f",&C);
-		scanf("%f",&L);
+		scanf("%lf",&H);
+		scanf("%lf",&C);
+		scanf("%lf",&L);
 		i=H*100.0/C;
 		if (i<=8.334 && L>=0.8)
 			printf("PROJETO SIMPLES\n");
